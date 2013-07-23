@@ -1,31 +1,37 @@
 body {
-  background-color: #fff;
-  color: #333;
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
+  background-color: #66ffff;
+  color: #000033;
+  font-family: Tahoma;
+  font-size: 15px;
   line-height: 18px;
+  margin: 10px 10px 10px 10px;
+  padding: 20px 20px 20px 20px;
+  border: 4px dashed #000033;
 }
 
 p, ol, ul, td {
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
+  font-family: Ariel;
+  font-weight: bold;
+  font-size: 15px;
   line-height: 18px;
 }
 
 pre {
   background-color: #eee;
   padding: 10px;
-  font-size: 11px;
+  font-size: 15px;
 }
 
 a {
-  color: #000;
+  color: #000033;
   &:visited {
-    color: #666;
+    color: #660066;
   }
   &:hover {
-    color: #fff;
+    color: #33ff00;
     background-color: #000;
+    font-size: 20px;
+
   }
 }
 
