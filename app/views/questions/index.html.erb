@@ -1,0 +1,9 @@
+<h1>Questions and Answers</h1>
+<ul>
+  <% @questions.each do |question| %>
+    <li><%= link_to question.question, question %></li>
+  <% end %>
+</ul>
+
+*|<%= link_to "New Question", new_question_path %>|* <br>
+*|<%= link_to "Home", controller: "welcome" %>|*
